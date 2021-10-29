@@ -16,7 +16,7 @@
             text-align: center;
             height: 25px;
             width: 175px;
-            background-color: white;
+            background-color: rgb(245, 230, 210);
 
             &:focus {
                 outline: none;
@@ -28,7 +28,7 @@
             width: 150px;
             border: 1px solid black;
             border-radius: 5px;
-            background-color: white;
+            background-color: rgb(245, 230, 210);
         }
     }
 }
