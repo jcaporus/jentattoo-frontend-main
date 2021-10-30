@@ -1,3 +1,16 @@
+.nav_img_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .nav_img {
+        width: 150px
+    }
+
+}
+
+
 .nav-wrapper {
     margin-top: 22px;
 

@@ -1,10 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 
-import LogoPicture from "../../../static/assets/images/jen-tattoo-logo-drawn.jpg";
-
 export default function Home() {
-    LogoPicture
     return (
         <div className='home-wrapper'>
             <h1>Welcome to JenTattoo!</h1>
