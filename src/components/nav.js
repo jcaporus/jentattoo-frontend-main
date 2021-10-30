@@ -7,6 +7,8 @@ export default function Nav() {
             <NavLink exact to="/">Home</NavLink>
             <NavLink to="/items">Items</NavLink>
             <NavLink to="/add-item">Add Item</NavLink>
+            <NavLink to="/about">About JenTattoo</NavLink>
+            <NavLink to="/contact">Contact Us</NavLink>
         </div>
     )
 }

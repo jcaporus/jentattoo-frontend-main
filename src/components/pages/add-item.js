@@ -27,7 +27,7 @@ export default class AddItem extends Component {
             error: false
         })
 
-        fetch("https://capstone-example-backend.herokuapp.com/item/add", {
+        fetch("https://jentattoo-backend-main.herokuapp.com/item/add", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({

@@ -12,7 +12,7 @@ export default class Items extends Component {
     }
 
     componentDidMount() {
-        fetch("https://capstone-example-backend.herokuapp.com/item/get")
+        fetch("https://jentattoo-backend-main.herokuapp.com/item/get")
         .then(response => response.json())
         .then(data => {
             this.setState({
