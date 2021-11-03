@@ -1,5 +1,17 @@
 @media (max-width: 680px) {
+    
+    .nav_img_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .home-wrapper {
+
+        .home-img-wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
         .home-buttons-wrapper {
             flex-direction: column;
             align-items: center;
