@@ -1,5 +1,10 @@
 @media (max-width: 680px) {
-    
+
+    .app {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .nav_img_wrapper {
         flex-direction: column;
         align-items: center;
