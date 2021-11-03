@@ -15,14 +15,8 @@ export default function Home() {
 
             <div className="home-buttons-wrapper">
                 <Link to="/items">See all my items</Link>
-                <br>
-                </br>
                 <Link to="/add-item">Add an item</Link>
-                <br>
-                </br>
-                <Link to="/about">About JenTattoo</Link>
-                <br>
-                </br>
+                <Link to="/about">About</Link>
                 <Link to="/contact">Contact Us</Link>
             </div>
         </div>
