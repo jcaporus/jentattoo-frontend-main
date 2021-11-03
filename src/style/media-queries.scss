@@ -5,6 +5,21 @@
         align-items: center;
     }
 
+    .content-page-wrapper {
+        flex-direction: column;
+        align-items: center;
+        
+        .left-column {
+            flex-direction: column;
+            align-items: left;    
+        }
+
+        .righ-column {
+            flex-direction: column;
+            align-items: right;    
+        }
+    }
+
     .nav_img_wrapper {
         flex-direction: column;
         align-items: center;
